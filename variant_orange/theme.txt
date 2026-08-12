@@ -10,6 +10,7 @@ desktop-color: "#000000"
   align = "center"
   color = "#FFFFFF"
   text = "SUBJECT: FREEMAN"
+  font = "Trebuchet MS Regular 20"
 }
 
 + label {
@@ -19,6 +20,7 @@ desktop-color: "#000000"
   align = "center"
   color = "#FFFFFF"
   text = "AWAITING ASSIGNMENT"
+  font = "Trebuchet MS Regular 20"
 }
 
 + boot_menu {
@@ -31,6 +33,7 @@ desktop-color: "#000000"
   selected_item_color = "#fecc18"
   item_padding = 8
   item_spacing = 10
+  item_font = "Trebuchet MS Regular 20"
   
   selected_item_pixmap_style = "selected_box/box_*.png"
 }
@@ -41,7 +44,8 @@ desktop-color: "#000000"
   top = 90%
   width = 12%
   align = "right"
-  text = "STATUS: "
+  text = "INSERTION IN: "
+  font = "Trebuchet MS Regular 20"
 }
 
 + label {
@@ -52,4 +56,5 @@ desktop-color: "#000000"
   align = "left"
   id = "__timeout__"
   text = "%d"
+  font = "Trebuchet MS Regular 20"
 }
