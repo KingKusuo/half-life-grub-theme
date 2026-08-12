@@ -13,6 +13,7 @@ desktop-color: "#000000"
   selected_item_color = "#FFFFFF" # White for the active selection
   item_padding = 8
   item_spacing = 10
+  item_font = "Trebuchet MS Regular 20"
   
   selected_item_pixmap_style = "selected_box/box_*.png"
 }
@@ -24,6 +25,7 @@ desktop-color: "#000000"
   width = 12%
   align = "right"
   text = "LOADING..."
+  font = "GorDIN Regular 18"
 }
 
 + label {
@@ -34,4 +36,5 @@ desktop-color: "#000000"
   align = "left"
   id = "__timeout__"
   text = "%d"
+  font = "GorDIN Regular 18"
 }
